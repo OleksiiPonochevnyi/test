@@ -1,20 +1,23 @@
-.bungee-spice-regular {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-p {
-  text-align: center;
-  font-size: 200%;
-  color: #f59002;
-}
-
-
-p:hover {
-  color: #f50202;
-}
-
 body {
-  
+    font-family: 'Bungee Spice', cursive;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bungee-spice-regular {
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#myTxt {
+    font-size: 36px;
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
 }
